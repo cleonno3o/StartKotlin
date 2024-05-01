@@ -1,0 +1,19 @@
+General Purpose Language
+- 범용적인 목적의 언어
+- Kotlin, Python, Java, C, C++, Swift, ...
+Domain Specific Language
+- 도메인 특화 언어 -> 특수한 목적을 위한 언어
+- 간단한 문법
+- XML
+
+XML (eXtensible Markup Language)
+- 안드로이드에서 UI를 그리기 위해 채택한 언어
+- Markup Language
+    - 태그로 마크를 하여 작성
+    - 태그 -> 범위 지정
+    - eXtensible: 태그안에 태그가 추가 가능
+- 태그
+    - <태그 속성...> </태그>
+        - 자식태그가 올 수 있음
+    - <태그 속성.../>
+        - 자식태그가 올 수 없음
