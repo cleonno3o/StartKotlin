@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">StartKotlin</string>
+    <string name="hello_kr">안녕하세요</string>
 </resources>
