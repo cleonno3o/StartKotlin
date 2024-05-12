@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FragmentActivity">
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragment1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:name="com.example.startkotlin.Fragment1"
+        tools:layout="@layout/fragemnt_1" />
+
+    <TextView
+        android:id="@+id/attach"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="attach"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:background="@color/teal_200"
+        />
+
+    <TextView
+        android:id="@+id/detach"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="detach"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:background="@color/teal_200"
+        />
+    <TextView
+        android:id="@+id/access_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="access_fragment"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:background="@color/yellow"
+        />
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/rootview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

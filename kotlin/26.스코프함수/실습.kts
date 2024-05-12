@@ -13,18 +13,23 @@ val gildong2 = Person("victor").also {
 //    nameIsGildong(it.name)
 }
 
+val age = 1
 // run
 // - 기본적으로 apply 동일하다
 // - 스코프의 마지막줄을 리턴한다 -> 특정 계산 결과가 필요한 경우
-val ageAfter10year = Person("gildong", 10).run {
+val ageAfter10year = Person().run {
+    this.name = "sumin"
+    age = 26
     age!! + 10
 }
+
+println(age)
 val gildong4: Person = Person("gildong", 10)
 val ageAfter10year2 = with(gildong4) {
     age!! + 10
 }
 // - with는 nullable 타입을 받지 못한다
-println(ageAfter10year2)
+println(ageAfter10year)
 
 //let
 // - 기본적으로 also와 동일하다
