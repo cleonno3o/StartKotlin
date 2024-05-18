@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:background="@color/teal_200"
+    android:background="@color/black"
     android:layout_height="match_parent">
-
     <TextView
-        android:id="@+id/call_activity"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:background="@color/purple_200"
-        android:text="Fragment1"
-        android:gravity="center"
-        android:textSize="30sp"/>
+        android:layout_height="match_parent"
+        android:textSize="60sp"
+        android:textColor="@color/white"
+        android:text="Fragment"
+        android:gravity="center"/>
 </androidx.appcompat.widget.LinearLayoutCompat>

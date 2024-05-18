@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ApplicationActivity1">
+    <TextView
+        android:id="@+id/changeTo2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="change Activity to 2"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:background="@color/teal_200"/>
+    <TextView
+        android:id="@+id/testMethod"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="testMethod"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:background="@color/purple_200"/>
+
+</LinearLayout>
