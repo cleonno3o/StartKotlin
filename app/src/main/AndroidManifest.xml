@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
 
     <application
         android:name=".MasterApplication"
@@ -14,7 +15,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.StartKotlin"
+        android:usesCleartextTraffic="true"
         tools:targetApi="31">
+        <activity
+            android:name=".RetrofitActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NetworkActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RoomActivity"
+            android:exported="false" />
         <activity
             android:name=".SharedPreferenceActivity"
             android:exported="false" />
@@ -64,7 +75,7 @@
             android:name=".FragmentActivity"
             android:exported="false" />
         <activity
-            android:name=".RoomActivity"
+            android:name=".PermissionActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
